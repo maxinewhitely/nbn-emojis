@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4382B71EB5282D00593341 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED4382B61EB5282D00593341 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED4382BB1EB5282D00593341 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = ED4382BA1EB5282D00593341 /* Stickers.xcstickers */; };
+		ED4382BC1EB5282D00593341 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = ED4382BA1EB5282D00593341 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4382B81EB5282D00593341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4382AC1EB5282D00593341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4382B51EB5282D00593341;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED4382C21EB5282D00593341 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED4382B71EB5282D00593341 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED4382B21EB5282D00593341 /* North by Northwestern Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "North by Northwestern Emojis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4382B61EB5282D00593341 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4382BA1EB5282D00593341 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		ED4382AB1EB5282D00593341 = {
+			isa = PBXGroup;
+			children = (
+				ED4382BA1EB5282D00593341 /* Stickers.xcstickers */,
+				ED4382B31EB5282D00593341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4382B31EB5282D00593341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4382B21EB5282D00593341 /* North by Northwestern Emojis.app */,
+				ED4382B61EB5282D00593341 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4382B11EB5282D00593341 /* North by Northwestern Emojis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4382C31EB5282D00593341 /* Build configuration list for PBXNativeTarget "North by Northwestern Emojis" */;
+			buildPhases = (
+				ED4382B01EB5282D00593341 /* Resources */,
+				ED4382C21EB5282D00593341 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4382B91EB5282D00593341 /* PBXTargetDependency */,
+			);
+			name = "North by Northwestern Emojis";
+			productName = "North by Northwestern Emojis";
+			productReference = ED4382B21EB5282D00593341 /* North by Northwestern Emojis.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		ED4382B51EB5282D00593341 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4382BF1EB5282D00593341 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				ED4382B41EB5282D00593341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = ED4382B61EB5282D00593341 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4382AC1EB5282D00593341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "North by Northwestern";
+				TargetAttributes = {
+					ED4382B11EB5282D00593341 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87Q873DQ98;
+						ProvisioningStyle = Automatic;
+					};
+					ED4382B51EB5282D00593341 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87Q873DQ98;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED4382AF1EB5282D00593341 /* Build configuration list for PBXProject "North by Northwestern Emojis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED4382AB1EB5282D00593341;
+			productRefGroup = ED4382B31EB5282D00593341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4382B11EB5282D00593341 /* North by Northwestern Emojis */,
+				ED4382B51EB5282D00593341 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4382B01EB5282D00593341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4382BC1EB5282D00593341 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4382B41EB5282D00593341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4382BB1EB5282D00593341 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4382B91EB5282D00593341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4382B51EB5282D00593341 /* StickerPackExtension */;
+			targetProxy = ED4382B81EB5282D00593341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED4382BD1EB5282D00593341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4382BE1EB5282D00593341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4382C01EB5282D00593341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 87Q873DQ98;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.northbynorthwestern.North-by-Northwestern-Emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED4382C11EB5282D00593341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 87Q873DQ98;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.northbynorthwestern.North-by-Northwestern-Emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ED4382C41EB5282D00593341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 87Q873DQ98;
+				INFOPLIST_FILE = "North by Northwestern Emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.northbynorthwestern.North-by-Northwestern-Emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED4382C51EB5282D00593341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 87Q873DQ98;
+				INFOPLIST_FILE = "North by Northwestern Emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.northbynorthwestern.North-by-Northwestern-Emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4382AF1EB5282D00593341 /* Build configuration list for PBXProject "North by Northwestern Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4382BD1EB5282D00593341 /* Debug */,
+				ED4382BE1EB5282D00593341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4382BF1EB5282D00593341 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4382C01EB5282D00593341 /* Debug */,
+				ED4382C11EB5282D00593341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED4382C31EB5282D00593341 /* Build configuration list for PBXNativeTarget "North by Northwestern Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4382C41EB5282D00593341 /* Debug */,
+				ED4382C51EB5282D00593341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4382AC1EB5282D00593341 /* Project object */;
+}

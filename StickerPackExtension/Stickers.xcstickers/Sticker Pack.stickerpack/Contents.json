@@ -1,0 +1,242 @@
+{
+  "stickers" : [
+    {
+      "filename" : "davis.sticker"
+    },
+    {
+      "filename" : "orrington.sticker"
+    },
+    {
+      "filename" : "noyes.sticker"
+    },
+    {
+      "filename" : "sheridan.sticker"
+    },
+    {
+      "filename" : "sherman.sticker"
+    },
+    {
+      "filename" : "sticker-medium-size.sticker"
+    },
+    {
+      "filename" : "garnett.sticker"
+    },
+    {
+      "filename" : "maple.sticker"
+    },
+    {
+      "filename" : "hinman.sticker"
+    },
+    {
+      "filename" : "foster.sticker"
+    },
+    {
+      "filename" : "bienen.sticker"
+    },
+    {
+      "filename" : "arts-and-sciences.sticker"
+    },
+    {
+      "filename" : "engineering.sticker"
+    },
+    {
+      "filename" : "medill.sticker"
+    },
+    {
+      "filename" : "communication.sticker"
+    },
+    {
+      "filename" : "sesp.sticker"
+    },
+    {
+      "filename" : "beaumont.sticker"
+    },
+    {
+      "filename" : "nevins.sticker"
+    },
+    {
+      "filename" : "d-and-ds.sticker"
+    },
+    {
+      "filename" : "coffee-lab.sticker"
+    },
+    {
+      "filename" : "the-deuce.sticker"
+    },
+    {
+      "filename" : "unicorn-cafe.sticker"
+    },
+    {
+      "filename" : "la-macchina.sticker"
+    },
+    {
+      "filename" : "ev1.sticker"
+    },
+    {
+      "filename" : "david-schwimmer.sticker"
+    },
+    {
+      "filename" : "billy-eichner.sticker"
+    },
+    {
+      "filename" : "julie-dreyfus.sticker"
+    },
+    {
+      "filename" : "stephen-colbert.sticker"
+    },
+    {
+      "filename" : "george-martin.sticker"
+    },
+    {
+      "filename" : "crying-kid.sticker"
+    },
+    {
+      "filename" : "Sticker Sequence.stickersequence"
+    },
+    {
+      "filename" : "norris.sticker"
+    },
+    {
+      "filename" : "deering.sticker"
+    },
+    {
+      "filename" : "main-copy.sticker"
+    },
+    {
+      "filename" : "new-kellogg.sticker"
+    },
+    {
+      "filename" : "old-kellog.sticker"
+    },
+    {
+      "filename" : "spac.sticker"
+    },
+    {
+      "filename" : "arch.sticker"
+    },
+    {
+      "filename" : "hammock.sticker"
+    },
+    {
+      "filename" : "tech.sticker"
+    },
+    {
+      "filename" : "elder.sticker"
+    },
+    {
+      "filename" : "hinman-dining.sticker"
+    },
+    {
+      "filename" : "allison.sticker"
+    },
+    {
+      "filename" : "sargent.sticker"
+    },
+    {
+      "filename" : "plex-east.sticker"
+    },
+    {
+      "filename" : "plex-west.sticker"
+    },
+    {
+      "filename" : "norbucks.sticker"
+    },
+    {
+      "filename" : "sherbucks.sticker"
+    },
+    {
+      "filename" : "30-hours.sticker"
+    },
+    {
+      "filename" : "60-hours.sticker"
+    },
+    {
+      "filename" : "90-hours.sticker"
+    },
+    {
+      "filename" : "120-hours.sticker"
+    },
+    {
+      "filename" : "divvy-bike.sticker"
+    },
+    {
+      "filename" : "penny-board.sticker"
+    },
+    {
+      "filename" : "scooter.sticker"
+    },
+    {
+      "filename" : "purple-line.sticker"
+    },
+    {
+      "filename" : "saferide.sticker"
+    },
+    {
+      "filename" : "cta.sticker"
+    },
+    {
+      "filename" : "timberland.sticker"
+    },
+    {
+      "filename" : "canada-goose-logo.sticker"
+    },
+    {
+      "filename" : "overalls.sticker"
+    },
+    {
+      "filename" : "tutu.sticker"
+    },
+    {
+      "filename" : "solo-cup.sticker"
+    },
+    {
+      "filename" : "beer-only.sticker"
+    },
+    {
+      "filename" : "full-caps-game.sticker"
+    },
+    {
+      "filename" : "caps-only.sticker"
+    },
+    {
+      "filename" : "southcarolina.sticker"
+    },
+    {
+      "filename" : "purple-heart-eyes.sticker"
+    },
+    {
+      "filename" : "spikeball.sticker"
+    },
+    {
+      "filename" : "anna-karenina.sticker"
+    },
+    {
+      "filename" : "chemistry.sticker"
+    },
+    {
+      "filename" : "venmo.sticker"
+    },
+    {
+      "filename" : "football-cat.sticker"
+    },
+    {
+      "filename" : "wildcat-claw.sticker"
+    },
+    {
+      "filename" : "willie.sticker"
+    },
+    {
+      "filename" : "canadian-goose.sticker"
+    },
+    {
+      "filename" : "bunny.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
